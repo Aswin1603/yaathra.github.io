@@ -54,8 +54,8 @@ header{
 }
 .haeder-content{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-bottom: 150px;
-    color: azure;
+    margin-bottom: 90px;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 .haeder-content h2{
@@ -69,7 +69,7 @@ header{
     border-radius: 5px;
 }
 .haeder-content h1{
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 10px;
     margin-bottom: 30px;
 }
@@ -278,5 +278,32 @@ p{
     .nav-link li{
         margin: 30px auto;
 
+    }
+    /*-----destination-----*/
+    .row{
+        flex-direction: column;
+    }
+    .row .col{
+        margin: 20px auto;
+    }
+    .col img{
+        max-width: 90%;
+    }
+    /*------place------*/
+    .explore{
+        width: 100%;
+    }
+    .sec .col{
+        width: 100%;
+    }
+    .img-gallery{
+        justify-content: center;
+        align-items: center;
+    }
+    .img-gallery img{
+        width: 90%;
+    }
+    .footer{
+        padding: 10px;
     }
 }
